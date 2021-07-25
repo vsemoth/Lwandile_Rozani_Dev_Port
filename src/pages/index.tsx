@@ -10,6 +10,7 @@ export default function Index() {
       <BasicMeta url={"/"} />
       <OpenGraphMeta url={"/"} />
       <TwitterCardMeta url={"/"} />
+      
       <div className="container">
         <div>
           <h1>
@@ -31,6 +32,7 @@ export default function Index() {
         h1 {
           font-size: 2.5rem;
           margin: 0;
+          padding:0;
           font-weight: 500;
         }
         h2 {
@@ -43,7 +45,7 @@ export default function Index() {
         }
         .handle {
           display: inline-block;
-          margin-top: 0.275em;
+          margin-top: 0.005em;
           color: #9b9b9b;
           letter-spacing: 0.05em;
         }
